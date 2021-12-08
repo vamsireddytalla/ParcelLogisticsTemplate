@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single"
+        android:enabled="true">
+        <item
+            android:id="@+id/menu_track_order"
+            android:icon="@drawable/ic_tracking_icon"
+            android:title="Track Order" />
+        <item
+            android:id="@+id/menu_orders"
+            android:icon="@drawable/reports_icon"
+            android:title="Booking History" />
+
+    </group>
+
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/settings_icon"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/logout_icon"
+        android:title="Logout" />
+
+</menu>

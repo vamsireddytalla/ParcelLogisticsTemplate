@@ -1,0 +1,53 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="btn_text_font" parent="AppTheme">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="RobotoTextViewStyle" parent="AppTheme">
+        <item name="android:fontFamily">@font/akaya_telivigala_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="TextView_Normal_Style" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+    <style name="Booking_Three_TextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+
+    <style name="EditTextThemeOverlay" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/akaya_telivigala_regular</item>
+        <item name="android:textAppearance">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+        <item name="boxStrokeColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="Custom_Spinner" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/akaya_telivigala_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:textColor">@color/black_overlay</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="RadioButtonStyle" parent="android:Widget.Holo.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:selectableItemBackground">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
